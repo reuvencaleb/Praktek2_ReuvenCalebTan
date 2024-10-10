@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portofolio Terbaik</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000000;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .new {
+            background-color: red;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 5px;
+            font-size: 12px;
+            margin-left: 5px;
+        }
+
+        .branding img {
+            height: 50px;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            width: 300px;
+            padding: 8px;
+            background-color: #3a3a3a;
+            border-radius: 20px;
+        }
+
+        .search-container input {
+            border: none;
+            outline: none;
+            background: none;
+            color: #fff;
+            font-size: 14px;
+            width: 100%;
+            margin-right: 8px;
+        }
+
+        .search-container input::placeholder {
+            color: #aaa; 
+        }
+
+        #hero {
+            background-color: #f4f4f4;
+            padding: 50px;
+            text-align: center;
+        }
+
+        #about, #portfolio, #data-diri, #form-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .portfolio-item {
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        p {
+            font-family: "Courier New", "monospace";
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        .avatar {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        form {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input, form textarea {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form input[type="submit"] {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+        .social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-media a img:hover {
+    transform: scale(1.1);
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="kompas-logo.png" alt="Kompas.com" />
+        </div>
+        <nav class="navbar">
+            <div class="search-container">
+                <input type="text" placeholder="cari sesuatu?">
+                <span class="icon">&#x1F50E;</span> 
+            </div>
+            <br>
+            <ul>
+                <li><a href="#data-diri">Data Diri</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#form-section">Form</a></li>
+            </ul>
+        </nav>
+        <div class="branding">
+            <img src="kompas-logo.png" alt="Nusantara Baru Indonesia Maju" />
+        </div>
+    </header>
+   
+    <section id="hero">
+        <h1>Selamat Datang Di Portofolio Terbaik</h1>
+        <p>Temukan Isi Kehidupan Saya</p>
+    </section>
+
+   
+    <section id="data-diri">
+        <h2>Data Diri</h2>
+
+        <p>Overview : Saya adalah seorang pelajar yang bersemangat dalam bidang olahraga, khususnya basket, bulutangkis, dan tenis meja. Selain itu, saya juga aktif dalam menjaga kebugaran melalui gym dan calisthenics. Saya berdedikasi dalam mencapai keseimbangan antara aktivitas akademik dan non-akademik, dengan tekad untuk terus berkembang dan mencapai prestasi di berbagai bidang yang saya tekuni.</p>
+
+        <p>Tinggi Badan: 163 cm</p>
+        <p>Umur: 14 Tahun</p>
+        <p>Alamat: Kelurahan Cideng , Kecamatan Gambir , Jakarta, Indonesia</p>
+        <p>Berat Badan: 49 kg</p>
+        <p>Hobi: Bermain Basket | Bulutangkis | Tenis Meja | Gym | Calisthenics</p>
+        <h3>Media Sosial</h3>
+    
+        <div class="social-media">
+        <a href="https://www.youtube.com/@caleb2510" target="_blank">
+            <img src="youtube-icon.png" alt="Twitter" />
+        </a>
+        <a href="https://www.linkedin.com/in/reuven-caleb-tan-785546323/" target="_blank">
+            <img src="linkedin-icon.png" alt="LinkedIn" />
+        </a>
+    </div>
+</section>
+
+    <section id="portfolio">
+        <h2>Prestasi Dan Riwayat Pendidikan Saya</h2>
+
+        <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Juara 1 Sanmar Cup - Basket</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Juara 2 BMS Cup - Basket</p>
+        </div>
+        
+        <div class="portfolio-item">
+            <img src="project3.jpg" alt="Project 3">
+            <p>Apresiasi Akademik - Cumlaude , Kelas 7 Semester 1</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="project4.jpg" alt="Project 4">
+            <p>Apresiasi Akademik - Magna Cumlaude , Kelas 7 Semester 2</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="project5.jpg" alt="Project 5">
+            <p>Apresiasi Non Akademik - Summa Cumlaude , Kelas 8 Semester 1</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="project6.jpg" alt="Project 6">
+            <p>Apresiasi Akademik - Magna Cumlaude dan Apresiasi Non Akademik - Summa Cumlaude , Kelas 8 Semester 2</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="project7.jpg" alt="Project 7">
+            <p>Pernah menjadi bagian dari OSIS / Presidium Legionnaire</p>
+        </div>
+
+        <h3>Riwayat Pendidikan</h3>
+    <ul style="list-style-type: none; padding: 0;">
+        <li><span style="font-weight:bold;">🧑‍🎓 SMP:</span> SMP Kolese Kanisius, Jakarta</li>
+        <li><span style="font-weight:bold;">📚 SD:</span> SDK 2 Penabur, Jakarta</li>
+        <li><span style="font-weight:bold;">🏫 TK:</span> Trinity School, Jakarta</li>
+    </ul>
+</section>
+
+
+    <section id="form-section">
+        <h2>Formulir</h2>
+        <form>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <input type="text" name="phone" placeholder="Nomor Telepon" required>
+            <textarea name="feedback" rows="4" placeholder="Tanggapan Anda tentang project ini" required></textarea>
+            <textarea name="additional-info" rows="4" placeholder="Keterangan tambahan" required></textarea>
+            <input type="submit" value="Kirim">
+        </form>
+    </section><br><br>
+
+    <footer>
+        <p>&copy; 2024 [Reuven Caleb Tan]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
